@@ -1,0 +1,42 @@
+{
+  "name": "@jadonamite/plugins",
+  "version": "1.0.0",
+  "description": "Plugins package",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@jadonamite/chessify-sdk": "^1.0.4",
+    "@jadonamite/fundxagon-sdk": "^1.0.4",
+    "@jadonamite/stacks-core": "^1.0.4",
+    "@stacks/network": "^6.17.0",
+    "@stacks/transactions": "^6.17.0",
+    "chessify-protocol": "^0.1.2",
+    "jest": "^29.4.2",
+    "jest-cli": "^29.4.2",
+    "typescript": "^5.9.3"
+  },
+  "peerDependencies": {
+    "@babel/preset-react": "^7.23.3",
+    "@babel/preset-typescript": "^7.26.0",
+    "@babel/traverse": "^7.11.0",
+    "cli-table": "^0.3.1"
+  },
+  "author": "jadonamite",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@types/babel__core": "^7.20.5",
+    "@types/babel__generator": "^7.27.0",
+    "@types/babel__template": "^7.4.4",
+    "@types/babel__traverse": "^7.28.0"
+  }
+}
